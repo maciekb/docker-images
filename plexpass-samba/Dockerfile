@@ -11,4 +11,4 @@ RUN \
     rm -rf /tmp/* && \
     rm -rf /var/tmp/*
 
-LABEL org.freenas.capabilities-add="NET_BROADCAST,SYS_ADMIN,DAC_READ_SEARCH"
+LABEL org.freenas.privileged="true"
