@@ -11,4 +11,4 @@ RUN \
     rm -rf /tmp/* && \
     rm -rf /var/tmp/*
 
-LABEL org.freenas.privileged="true"
+# LABEL org.freenas.privileged="true"
