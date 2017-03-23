@@ -10,3 +10,5 @@ RUN \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /tmp/* && \
     rm -rf /var/tmp/*
+
+LABEL org.freenas.privileged="true"
